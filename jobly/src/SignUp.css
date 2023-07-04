@@ -1,0 +1,42 @@
+.sign-Up-form label {
+    color:#07244b;
+}
+.sign-Up-form input{
+    padding:7px;
+    margin:10px;
+    border-radius: 10px;
+    border-color:#07244b; ;
+}
+.sign-Up-form button {
+    padding: 0px 10em;
+    min-width: 10ch;
+    min-height: 44px;
+    border-radius: 15px;
+    box-shadow: 4px 3px 3px rgb(37, 35, 35);
+    background-color: #07244b;;
+    border:none;
+    color:aliceblue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    /* margin-left: 60px; */
+
+}
+
+.sign-Up-form button:hover  {
+    cursor: pointer;
+}
+
+.sign-Up-containers {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+.sign-Up-main {
+    background-color: aliceblue;
+    padding:40px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+    border-radius: 3px;
+}
+.sign-Up-main h1 {
+    color:#07244b;
+}
