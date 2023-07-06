@@ -18,7 +18,7 @@ const NavBar = ({token,currentUser}) => {
                         <NavLink to='/companies'>Companies</NavLink> 
                         <NavLink to={'/jobs'}>Jobs</NavLink>
                         <NavLink to={'/profile'}>Profile</NavLink>
-                        <NavLink to={'logout'}>Logout {currentUser.username}</NavLink>
+                        <NavLink to={'logout'}>Logout</NavLink>
                         {/* <button >Logout {currentUser.username}</button> */}
                     </Nav>
                    : 

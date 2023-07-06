@@ -59,6 +59,12 @@ const Profile = ({currentUser,setCurrentUser}) => {
             </div>
             <button>Save Changes</button>
         </form>
+            <div className="profile-img-container">
+
+            
+                <img className='profile-img-1'src='https://img.freepik.com/free-vector/colleagues-working-together-project_74855-6308.jpg?size=626&ext=jpg'></img>
+                <img className="profile-img-2" src='https://img.freepik.com/free-vector/company-employees-planning-task-brainstorming_74855-6316.jpg?size=626&ext=jpg'></img>
+            </div>    
         </div>
     )
 }   

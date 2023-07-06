@@ -18,8 +18,14 @@ const Home = ({currentUser}) => {
                     <Link to='/signup'>Sign-up</Link> 
                 </div>
                 }
-                <img className='home-img-1'src='https://img.freepik.com/free-vector/colleagues-working-together-project_74855-6308.jpg?size=626&ext=jpg'></img>
-                <img className="home-img-2" src='https://img.freepik.com/free-vector/company-employees-planning-task-brainstorming_74855-6316.jpg?size=626&ext=jpg'></img>
+                
+                <div className="home-main-img-container">
+                    <img className='home-img-1'src='https://img.freepik.com/free-vector/colleagues-working-together-project_74855-6308.jpg?size=626&ext=jpg'></img>
+
+                    <img className="home-img-2" src='https://img.freepik.com/free-vector/company-employees-planning-task-brainstorming_74855-6316.jpg?size=626&ext=jpg'></img>
+                </div>
+                
+                
             </div>
             
         </div>

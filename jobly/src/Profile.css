@@ -40,3 +40,24 @@
 .profile-main h1 {
     color:#07244b;
 }
+
+.profile-img-1 {
+    position:absolute;
+
+    right:70vw;
+    height:30vh;
+    image-resolution: auto;
+    bottom: 36vh;
+}
+
+.profile-img-2 {
+    position:absolute;
+    /* bottom:20vh; */
+    left:70vw;
+    height:30vh;
+    bottom: 36vh;
+}
+
+.profile-img-container {
+    overflow-x: hidden;
+}
